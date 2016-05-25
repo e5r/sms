@@ -1,4 +1,3 @@
-==============================
 SMS - Secure Messaging Session
 ==============================
 
@@ -6,7 +5,7 @@ Quando falamos em segurança e proteção de sistemas de computador, caímos sem
 de serviços para Autenticação, Autorização e Auditoria (Authentication, Authorization and
 Audit), ou somente Serviços AAA, e mais simples ainda, A3S (AAA Services).
 
-Conheça o projeto de serviços AAA em https://github.com/e5r/aaa-simplesample
+Conheça nossa ideia para serviços AAA `aqui <https://github.com/e5r/aaa-simplesample>`_.
 
 .. code-block:: text
 
@@ -24,19 +23,19 @@ Conheça o projeto de serviços AAA em https://github.com/e5r/aaa-simplesample
  #          '---'
 
 A1S - Authentication
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 O Serviço de Autenticação (Authentication Service) é responsável por somente validar a
 identidade dos indivíduos que solicitam interagir com os sistemas sob proteção, e deve
 negar acesso as demais camadas da pilha caso isso não seja possível.
 
 A2S - Authorization
-~~~~~~~~~~~~~~~~~~~
+-------------------
 O Serviço de Autorização (Authorization Service) é responsável por informar a que
 funcionalidades o indivíduo pode, e que nível de acesso o mesmo deve ter em cada sistemas
 sob proteção.
 
 A3S - Audit
-~~~~~~~~~~~
+-----------
 O Serviço de Auditoria (Audit Service) é responsável por provê uma interface simples,
 completa, abstrata e transparente para que os sistemas sob proteção possam comunicar a
 ocorrência de eventos em suas dependências pelos indivíduos que interagem com eles.
@@ -44,7 +43,7 @@ Essa auditoria é totalmente desacoplada dos sistemas e pode existir até mesmo 
 a remoção dos próprios sistemas. Isso garante o princípio da rastreabilidade total.
 
 SMS
-~~~
+---
 Tendo explanado brevemente sobre o conceito A3S, continuamos...
 
 Uma das maiores preocupações com proteção de sistemas de computador é estabelecer um
@@ -64,8 +63,8 @@ que pode ser usado para reforçar a segurança e proteção de sistemas de compu
 Acreditamos ser ideal para aplicação em serviços de Intranet's corporativas.
 
 INDEX
-~~~~~
-1. O que é o SMS
+-----
+1. `O que é o SMS <doc/01_what_is_sms.rst>`_
 2. O problema do HTTPS
 3. Criptografia Síncrona e Assíncrona
 4. A historinha do fluxo
