@@ -55,10 +55,10 @@ sistemas sob proteção, além da comunicação com os indivíduos que os acessa
 outros sistemas).
 
 Devemos garantir que os dados trafegados, sejam íntegros tanto com verificações de
-identificaão, senhas e contra-senhas, como também, garantir que essas identificações,
+identificação, senhas e contra-senhas, como também, garantir que essas identificações,
 senhas e contra-senhas possam trafegar com segurança (para garantir a integridade) e
 protegidas de espiões. Com isso entendemos que a segurança/proteção deve ser garantida
-antes mesmo do indivíduo informar a primeira informação.
+antes mesmo do indivíduo ceder a primeira informação.
 
 Para isso propomos o padrão SMS - Secure Messaging Session (Sessão de Troca de Mensagens
 Seguras). Trata-se de um fluxo baseado em SSL independente de tecnologia de implementação
