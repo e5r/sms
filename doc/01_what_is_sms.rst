@@ -6,7 +6,7 @@ A necessidade
 =============
 Quando falamos em segurança e proteção de sistemas de computador, caímos sempre na pilha
 de serviços para Autenticação, Autorização e Auditoria (Authentication, Authorization and
-Audit), ou somente Serviços AAA, e mais simples ainda, A3S (AAA Services).
+Accounting), ou somente Serviços AAA, e mais simples ainda, A3S (AAA Services).
 
 Conheça nossa ideia para serviços AAA `aqui <https://github.com/e5r/aaa-simplesample>`_.
 
@@ -37,9 +37,9 @@ O Serviço de Autorização (Authorization Service) é responsável por informar
 funcionalidades o indivíduo pode, e que nível de acesso o mesmo deve ter em cada sistemas
 sob proteção.
 
-A3S - Audit
------------
-O Serviço de Auditoria (Audit Service) é responsável por provê uma interface simples,
+A3S - Accounting
+----------------
+O Serviço de Auditoria (Accounting Service) é responsável por provê uma interface simples,
 completa, abstrata e transparente para que os sistemas sob proteção possam comunicar a
 ocorrência de eventos em suas dependências pelos indivíduos que interagem com eles.
 Essa auditoria é totalmente desacoplada dos sistemas e pode existir até mesmo com
